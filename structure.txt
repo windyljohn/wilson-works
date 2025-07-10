@@ -1,0 +1,90 @@
+/src
+  /components
+    AuthForm.jsx
+    InvoiceForm.jsx
+    InvoiceList.jsx
+    ProductRow.jsx
+  /pages
+    Login.jsx
+    Register.jsx
+    Dashboard.jsx
+  /hooks
+    useLocalStorage.js
+  /utils
+    validators.js
+  App.jsx
+  routes.jsx
+  main.jsx
+.env.sample
+
+
+Frontend Web Developer
+Exam Topic:
+Build a simple Invoicing System using React.js. You will need to implement a Login UI and
+CRUD interface (Create, Read, Update, Delete) for invoices. The application should be
+functional using React state only or any frontend state management tool of your choice
+(e.g., Redux, Zustand). No backend is required — you may use local Storage to persist data
+across page reloads.
+Please upload your project publicly on GitHub or Bitbucket. Include a .env.sample if
+applicable (e.g., for fake API keys or placeholder endpoints).
+Critical Points:
+• Clean and organized code
+• Responsive and clean UI
+• Good UX
+• Reusable and well-structured components
+• Form validation
+• Basic security considerations (e.g., password masking, disabling browser auto-
+complete)
+Instructions:
+Authentication UI:
+• Create Register, Login, and Logout views.
+• After logging in, users can access the Invoice system.
+• Simulate authentication using local Storage (e.g., save a simple token or flag).
+Invoice Form:
+Create a form that includes the following fields:
+• Invoice Number (text input)
+• Invoice Date (date picker)
+• Customer Name (text input)
+Add multiple products per invoice:
+Each product entry should include:
+• Product Name (text)
+• Quantity (number)
+• Price (number)
+• Subtotal (auto-calculated)
+Show the Total Invoice Amount at the bottom.
+You must be able to dynamically add or remove product rows.
+Invoice List Page:
+• Display a list of invoices with:
+o Invoice number
+o Date
+o Customer Name
+o Total amount
+• Include Edit and Delete buttons for each invoice.
+Data Storage:
+• Use localStorage to persist users and invoices.
+• You may simulate REST actions by managing React state and syncing with
+localStorage.
+When you're done:
+• Upload your project to GitHub or Bitbucket and make it public.
+• Email us your repository link.
+Invoice Form Example:
+Invoice #: INV-0001
+Date: 2024-07-07
+Customer Name: John Doe
+Products:
+------------------------------------------------
+| Product Name | Quantity | Price | Sub Total |
+|--------------|----------|--------|-----------|
+| Mouse | 2 | 300 | 600 |
+| Keyboard | 3 | 450 | 1350 |
+------------------------------------------------
+Total: 1950
+**All inputs should be dynamic, not hardcoded.
+You are free to use any libraries and online resources you find helpful. Resourcefulness is
+one of the qualities we value most.
+Good luck!
+Best Regards,
+Dondelyn Vael
+HR/Admin Assistant
+
+

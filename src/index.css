@@ -1,0 +1,33 @@
+html,
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+@media (max-width: 1000px) {
+  html,
+  body {
+    font-size: 55.55%;
+  }
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    font-size: 40.55%;
+  }
+}
