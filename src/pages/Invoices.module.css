@@ -5,6 +5,7 @@
   padding: 5rem;
   font-size: 1.5rem;
   background-color: #fff9f9;
+  height: 100vh;
 }
 
 .head {
@@ -75,11 +76,6 @@
   font-family: "Poppins";
 }
 
-/* .customer-input:focus,
-.customer-input:hover {
-  box-shadow: 0 0 0 2px #fd6262;
-} */
-
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -106,15 +102,13 @@
 }
 
 .delete-wrapper {
-  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .delete-icon {
-  position: absolute;
-  transform: translate(50%, -50%);
-  top: 50%;
-  right: 50%;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -153,4 +147,15 @@
   font-family: "Poppins";
   border-radius: 5px;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    padding: 5rem 2rem;
+  }
+
+  .table td,
+  .table th {
+    padding: 1rem 0;
+  }
 }

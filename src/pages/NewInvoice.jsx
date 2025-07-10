@@ -17,7 +17,6 @@ export default function NewInvoice() {
   });
 
   const user = useSelector((state) => state.auth.user);
-  console.log(user);
   const invoices = useSelector((state) => state.invoices.list);
   const dispatch = useDispatch();
   const navigate = useNavigate();

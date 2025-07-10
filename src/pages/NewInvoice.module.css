@@ -42,6 +42,7 @@
   padding: 5rem;
   font-size: 1.5rem;
   background-color: #fff9f9;
+  height: 100vh;
 }
 
 .head {
@@ -113,6 +114,7 @@
 
 .input-wrapper label {
   font-weight: 500;
+  text-wrap: nowrap;
 }
 
 .input-wrapper label span {
@@ -130,11 +132,6 @@
   font-family: "Poppins";
 }
 
-/* .customer-input:focus,
-.customer-input:hover {
-  box-shadow: 0 0 0 2px #fd6262;
-} */
-
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -150,6 +147,7 @@
 
 .table th {
   padding: 1rem;
+  text-wrap: nowrap;
 }
 
 .table th {
@@ -161,14 +159,11 @@
 }
 
 .delete-wrapper {
-  position: relative;
+  width: 5rem;
 }
 
 .delete-icon {
-  position: absolute;
-  transform: translate(50%, -50%);
-  top: 50%;
-  right: 50%;
+  display: flex;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -202,4 +197,10 @@
   font-family: "Poppins";
   border-radius: 5px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .add-item {
+    font-size: 1.6rem;
+  }
 }

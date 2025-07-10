@@ -46,10 +46,11 @@ export default function Invoices() {
             <table className={classes.table}>
               <thead>
                 <tr>
-                  <th>Invoice Number</th>
+                  <th>Invoice #</th>
                   <th>Date</th>
                   <th>Customer Name</th>
-                  <th>Total Amount</th>
+                  <th>Total</th>
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -61,14 +62,14 @@ export default function Invoices() {
                     <td>₱{calculateTotal(inv.products)}</td>
                     <td className={classes["delete-wrapper"]}>
                       <img
-                        src={deleteIcon}
-                        className={classes["delete-icon"]}
-                        onClick={() => handleDelete(index)}
-                      />
-                      <img
                         src={editIcon}
                         className={classes["edit-icon"]}
                         onClick={() => handleEdit(inv.invoiceNumber)}
+                      />
+                      <img
+                        src={deleteIcon}
+                        className={classes["delete-icon"]}
+                        onClick={() => handleDelete(index)}
                       />
                     </td>
                   </tr>

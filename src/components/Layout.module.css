@@ -34,3 +34,38 @@
 .nav-links a:hover {
   color: #fd6262;
 }
+
+@media (max-width: 1200px) {
+  .navigation-wrapper {
+    max-width: 22rem;
+    padding: 5rem 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .navigation-wrapper {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .nav-links {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}

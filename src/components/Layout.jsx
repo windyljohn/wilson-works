@@ -22,7 +22,6 @@ export default function Layout() {
             <a>Dashboard</a>
             <a>Invoices</a>
             <a>Users</a>
-            <a>Settings</a>
             <a onClick={handleLogout}>Log Out</a>
           </nav>
         </div>
