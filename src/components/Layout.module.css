@@ -1,0 +1,36 @@
+.dashboard {
+  height: 100vh;
+  display: flex;
+}
+
+.navigation-wrapper {
+  background-color: black;
+  padding: 5rem;
+  width: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  flex-direction: column;
+  font-weight: 500;
+  max-width: 30rem;
+}
+
+.navigation {
+  margin: 0 auto;
+}
+
+.logo {
+  align-self: center;
+  height: 5rem;
+  margin-bottom: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #fd6262;
+}

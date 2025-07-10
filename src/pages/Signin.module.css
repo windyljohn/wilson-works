@@ -1,0 +1,94 @@
+.header {
+  text-align: center;
+}
+
+.header h3 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+.header p {
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.form {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.form input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 1.2rem 1.2rem 1.2rem 1.6rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  transition: all 0.2s;
+}
+
+.form input:focus,
+.form input:hover {
+  box-shadow: 0 0 0 2px #fd6262;
+}
+
+.invalid {
+  color: red;
+  font-size: 1.2rem;
+  position: absolute;
+}
+
+.invalid-signup {
+  color: red;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 6.7rem;
+}
+
+.reset-password {
+  text-align: right;
+  margin-bottom: 1.6rem;
+}
+
+.links {
+  color: #fd6262;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+.button {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fd6262;
+  color: #141416;
+  padding: 1.2rem 1.2rem 1.2rem 1.6rem;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.button-signup {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fd6262;
+  color: #141416;
+  padding: 1.2rem 1.2rem 1.2rem 1.6rem;
+  margin-bottom: 1.6rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.button:hover,
+.button-signup:hover {
+  background-color: #889ce7;
+}
+
+.create-account p {
+  text-align: center;
+  font-size: 1.4rem;
+}
